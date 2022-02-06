@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C994C1A27AFE935006D4F8E /* OTUS_Dudarev_HW6App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C994C1927AFE935006D4F8E /* OTUS_Dudarev_HW6App.swift */; };
+		2C994C1E27AFE936006D4F8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C994C1D27AFE936006D4F8E /* Assets.xcassets */; };
+		2C994C2127AFE936006D4F8E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C994C2027AFE936006D4F8E /* Preview Assets.xcassets */; };
+		2C994C2E27AFE980006D4F8E /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C994C2D27AFE980006D4F8E /* WidgetKit.framework */; };
+		2C994C3027AFE980006D4F8E /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C994C2F27AFE980006D4F8E /* SwiftUI.framework */; };
+		2C994C3327AFE980006D4F8E /* SuffixWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C994C3227AFE980006D4F8E /* SuffixWidget.swift */; };
+		2C994C3627AFE981006D4F8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C994C3527AFE981006D4F8E /* Assets.xcassets */; };
+		2C994C3827AFE981006D4F8E /* SuffixWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 2C994C3427AFE980006D4F8E /* SuffixWidget.intentdefinition */; };
+		2C994C3927AFE981006D4F8E /* SuffixWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 2C994C3427AFE980006D4F8E /* SuffixWidget.intentdefinition */; };
+		2C994C3C27AFE981006D4F8E /* SuffixWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2C994C2B27AFE980006D4F8E /* SuffixWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2C994C4727AFEB9E006D4F8E /* TabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C994C4627AFEB9E006D4F8E /* TabScreen.swift */; };
+		2C994C4927AFEBD4006D4F8E /* TextInputScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C994C4827AFEBD4006D4F8E /* TextInputScreen.swift */; };
+		2C994C4B27AFEBE6006D4F8E /* SuffixScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C994C4A27AFEBE6006D4F8E /* SuffixScreen.swift */; };
+		2C994C4D27AFEBF4006D4F8E /* HistoryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C994C4C27AFEBF4006D4F8E /* HistoryScreen.swift */; };
+		2C994C5027AFECC1006D4F8E /* SuffixViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C994C4F27AFECC1006D4F8E /* SuffixViewModel.swift */; };
+		2C994C5127AFECC1006D4F8E /* SuffixViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C994C4F27AFECC1006D4F8E /* SuffixViewModel.swift */; };
+		2C994C5427AFECF1006D4F8E /* Suffix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C994C5327AFECF1006D4F8E /* Suffix.swift */; };
+		2C994C5527AFECF1006D4F8E /* Suffix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C994C5327AFECF1006D4F8E /* Suffix.swift */; };
+		2C994C5C27AFEDBD006D4F8E /* URL+currentScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C994C5B27AFEDBD006D4F8E /* URL+currentScheme.swift */; };
+		2C994C5F27AFEE28006D4F8E /* WidgetScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C994C5E27AFEE28006D4F8E /* WidgetScreen.swift */; };
+		2C994C6027AFEE28006D4F8E /* WidgetScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C994C5E27AFEE28006D4F8E /* WidgetScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C994C3A27AFE981006D4F8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C994C0E27AFE935006D4F8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C994C2A27AFE980006D4F8E;
+			remoteInfo = SuffixWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2C994C4027AFE981006D4F8E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2C994C3C27AFE981006D4F8E /* SuffixWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2C994C1627AFE935006D4F8E /* OTUS-Dudarev-HW6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OTUS-Dudarev-HW6.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C994C1927AFE935006D4F8E /* OTUS_Dudarev_HW6App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTUS_Dudarev_HW6App.swift; sourceTree = "<group>"; };
+		2C994C1D27AFE936006D4F8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C994C2027AFE936006D4F8E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2C994C2B27AFE980006D4F8E /* SuffixWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SuffixWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C994C2D27AFE980006D4F8E /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		2C994C2F27AFE980006D4F8E /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		2C994C3227AFE980006D4F8E /* SuffixWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuffixWidget.swift; sourceTree = "<group>"; };
+		2C994C3427AFE980006D4F8E /* SuffixWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = SuffixWidget.intentdefinition; sourceTree = "<group>"; };
+		2C994C3527AFE981006D4F8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C994C3727AFE981006D4F8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C994C4127AFE9A4006D4F8E /* OTUS-Dudarev-HW6.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "OTUS-Dudarev-HW6.entitlements"; sourceTree = "<group>"; };
+		2C994C4227AFE9B2006D4F8E /* SuffixWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SuffixWidgetExtension.entitlements; sourceTree = "<group>"; };
+		2C994C4627AFEB9E006D4F8E /* TabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabScreen.swift; sourceTree = "<group>"; };
+		2C994C4827AFEBD4006D4F8E /* TextInputScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInputScreen.swift; sourceTree = "<group>"; };
+		2C994C4A27AFEBE6006D4F8E /* SuffixScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuffixScreen.swift; sourceTree = "<group>"; };
+		2C994C4C27AFEBF4006D4F8E /* HistoryScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryScreen.swift; sourceTree = "<group>"; };
+		2C994C4F27AFECC1006D4F8E /* SuffixViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuffixViewModel.swift; sourceTree = "<group>"; };
+		2C994C5327AFECF1006D4F8E /* Suffix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Suffix.swift; sourceTree = "<group>"; };
+		2C994C5B27AFEDBD006D4F8E /* URL+currentScheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+currentScheme.swift"; sourceTree = "<group>"; };
+		2C994C5E27AFEE28006D4F8E /* WidgetScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C994C1327AFE935006D4F8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C994C2827AFE980006D4F8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C994C3027AFE980006D4F8E /* SwiftUI.framework in Frameworks */,
+				2C994C2E27AFE980006D4F8E /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C994C0D27AFE935006D4F8E = {
+			isa = PBXGroup;
+			children = (
+				2C994C1827AFE935006D4F8E /* OTUS-Dudarev-HW6 */,
+				2C994C3127AFE980006D4F8E /* SuffixWidget */,
+				2C994C2C27AFE980006D4F8E /* Frameworks */,
+				2C994C1727AFE935006D4F8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C994C1727AFE935006D4F8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C994C1627AFE935006D4F8E /* OTUS-Dudarev-HW6.app */,
+				2C994C2B27AFE980006D4F8E /* SuffixWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C994C1827AFE935006D4F8E /* OTUS-Dudarev-HW6 */ = {
+			isa = PBXGroup;
+			children = (
+				2C994C4327AFEA20006D4F8E /* App */,
+				2C994C4527AFEB7F006D4F8E /* Screens */,
+				2C994C4E27AFEC9B006D4F8E /* ViewModel */,
+				2C994C5227AFECE5006D4F8E /* Model&Suffix */,
+				2C994C5A27AFED94006D4F8E /* Extension */,
+				2C994C1D27AFE936006D4F8E /* Assets.xcassets */,
+				2C994C1F27AFE936006D4F8E /* Preview Content */,
+			);
+			path = "OTUS-Dudarev-HW6";
+			sourceTree = "<group>";
+		};
+		2C994C1F27AFE936006D4F8E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2C994C2027AFE936006D4F8E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2C994C2C27AFE980006D4F8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C994C2D27AFE980006D4F8E /* WidgetKit.framework */,
+				2C994C2F27AFE980006D4F8E /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C994C3127AFE980006D4F8E /* SuffixWidget */ = {
+			isa = PBXGroup;
+			children = (
+				2C994C4427AFEA44006D4F8E /* WidgetApp */,
+				2C994C5D27AFEDF2006D4F8E /* WidgetScreen */,
+				2C994C3427AFE980006D4F8E /* SuffixWidget.intentdefinition */,
+				2C994C3527AFE981006D4F8E /* Assets.xcassets */,
+			);
+			path = SuffixWidget;
+			sourceTree = "<group>";
+		};
+		2C994C4327AFEA20006D4F8E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2C994C4127AFE9A4006D4F8E /* OTUS-Dudarev-HW6.entitlements */,
+				2C994C1927AFE935006D4F8E /* OTUS_Dudarev_HW6App.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		2C994C4427AFEA44006D4F8E /* WidgetApp */ = {
+			isa = PBXGroup;
+			children = (
+				2C994C3727AFE981006D4F8E /* Info.plist */,
+				2C994C4227AFE9B2006D4F8E /* SuffixWidgetExtension.entitlements */,
+				2C994C3227AFE980006D4F8E /* SuffixWidget.swift */,
+			);
+			path = WidgetApp;
+			sourceTree = "<group>";
+		};
+		2C994C4527AFEB7F006D4F8E /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				2C994C4627AFEB9E006D4F8E /* TabScreen.swift */,
+				2C994C4827AFEBD4006D4F8E /* TextInputScreen.swift */,
+				2C994C4A27AFEBE6006D4F8E /* SuffixScreen.swift */,
+				2C994C4C27AFEBF4006D4F8E /* HistoryScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		2C994C4E27AFEC9B006D4F8E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2C994C4F27AFECC1006D4F8E /* SuffixViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2C994C5227AFECE5006D4F8E /* Model&Suffix */ = {
+			isa = PBXGroup;
+			children = (
+				2C994C5327AFECF1006D4F8E /* Suffix.swift */,
+			);
+			path = "Model&Suffix";
+			sourceTree = "<group>";
+		};
+		2C994C5A27AFED94006D4F8E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2C994C5B27AFEDBD006D4F8E /* URL+currentScheme.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		2C994C5D27AFEDF2006D4F8E /* WidgetScreen */ = {
+			isa = PBXGroup;
+			children = (
+				2C994C5E27AFEE28006D4F8E /* WidgetScreen.swift */,
+			);
+			path = WidgetScreen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C994C1527AFE935006D4F8E /* OTUS-Dudarev-HW6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C994C2427AFE936006D4F8E /* Build configuration list for PBXNativeTarget "OTUS-Dudarev-HW6" */;
+			buildPhases = (
+				2C994C1227AFE935006D4F8E /* Sources */,
+				2C994C1327AFE935006D4F8E /* Frameworks */,
+				2C994C1427AFE935006D4F8E /* Resources */,
+				2C994C4027AFE981006D4F8E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C994C3B27AFE981006D4F8E /* PBXTargetDependency */,
+			);
+			name = "OTUS-Dudarev-HW6";
+			productName = "OTUS-Dudarev-HW6";
+			productReference = 2C994C1627AFE935006D4F8E /* OTUS-Dudarev-HW6.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C994C2A27AFE980006D4F8E /* SuffixWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C994C3D27AFE981006D4F8E /* Build configuration list for PBXNativeTarget "SuffixWidgetExtension" */;
+			buildPhases = (
+				2C994C2727AFE980006D4F8E /* Sources */,
+				2C994C2827AFE980006D4F8E /* Frameworks */,
+				2C994C2927AFE980006D4F8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuffixWidgetExtension;
+			productName = SuffixWidgetExtension;
+			productReference = 2C994C2B27AFE980006D4F8E /* SuffixWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C994C0E27AFE935006D4F8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					2C994C1527AFE935006D4F8E = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					2C994C2A27AFE980006D4F8E = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 2C994C1127AFE935006D4F8E /* Build configuration list for PBXProject "OTUS-Dudarev-HW6" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C994C0D27AFE935006D4F8E;
+			productRefGroup = 2C994C1727AFE935006D4F8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C994C1527AFE935006D4F8E /* OTUS-Dudarev-HW6 */,
+				2C994C2A27AFE980006D4F8E /* SuffixWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C994C1427AFE935006D4F8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C994C2127AFE936006D4F8E /* Preview Assets.xcassets in Resources */,
+				2C994C1E27AFE936006D4F8E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C994C2927AFE980006D4F8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C994C3627AFE981006D4F8E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C994C1227AFE935006D4F8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C994C4B27AFEBE6006D4F8E /* SuffixScreen.swift in Sources */,
+				2C994C5027AFECC1006D4F8E /* SuffixViewModel.swift in Sources */,
+				2C994C5427AFECF1006D4F8E /* Suffix.swift in Sources */,
+				2C994C1A27AFE935006D4F8E /* OTUS_Dudarev_HW6App.swift in Sources */,
+				2C994C4727AFEB9E006D4F8E /* TabScreen.swift in Sources */,
+				2C994C4927AFEBD4006D4F8E /* TextInputScreen.swift in Sources */,
+				2C994C5C27AFEDBD006D4F8E /* URL+currentScheme.swift in Sources */,
+				2C994C3927AFE981006D4F8E /* SuffixWidget.intentdefinition in Sources */,
+				2C994C4D27AFEBF4006D4F8E /* HistoryScreen.swift in Sources */,
+				2C994C5F27AFEE28006D4F8E /* WidgetScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C994C2727AFE980006D4F8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C994C3327AFE980006D4F8E /* SuffixWidget.swift in Sources */,
+				2C994C6027AFEE28006D4F8E /* WidgetScreen.swift in Sources */,
+				2C994C3827AFE981006D4F8E /* SuffixWidget.intentdefinition in Sources */,
+				2C994C5527AFECF1006D4F8E /* Suffix.swift in Sources */,
+				2C994C5127AFECC1006D4F8E /* SuffixViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C994C3B27AFE981006D4F8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C994C2A27AFE980006D4F8E /* SuffixWidgetExtension */;
+			targetProxy = 2C994C3A27AFE981006D4F8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2C994C2227AFE936006D4F8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C994C2327AFE936006D4F8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C994C2527AFE936006D4F8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "OTUS-Dudarev-HW6/App/OTUS-Dudarev-HW6.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OTUS-Dudarev-HW6/Preview Content\"";
+				DEVELOPMENT_TEAM = 249UEHKB7H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "icloud-dudarevmail.OTUS-Dudarev-HW6";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C994C2627AFE936006D4F8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "OTUS-Dudarev-HW6/App/OTUS-Dudarev-HW6.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OTUS-Dudarev-HW6/Preview Content\"";
+				DEVELOPMENT_TEAM = 249UEHKB7H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "icloud-dudarevmail.OTUS-Dudarev-HW6";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2C994C3E27AFE981006D4F8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = SuffixWidget/WidgetApp/SuffixWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 249UEHKB7H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SuffixWidget/WidgetApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SuffixWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "icloud-dudarevmail.OTUS-Dudarev-HW6.SuffixWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C994C3F27AFE981006D4F8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = SuffixWidget/WidgetApp/SuffixWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 249UEHKB7H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SuffixWidget/WidgetApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SuffixWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "icloud-dudarevmail.OTUS-Dudarev-HW6.SuffixWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C994C1127AFE935006D4F8E /* Build configuration list for PBXProject "OTUS-Dudarev-HW6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C994C2227AFE936006D4F8E /* Debug */,
+				2C994C2327AFE936006D4F8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C994C2427AFE936006D4F8E /* Build configuration list for PBXNativeTarget "OTUS-Dudarev-HW6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C994C2527AFE936006D4F8E /* Debug */,
+				2C994C2627AFE936006D4F8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C994C3D27AFE981006D4F8E /* Build configuration list for PBXNativeTarget "SuffixWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C994C3E27AFE981006D4F8E /* Debug */,
+				2C994C3F27AFE981006D4F8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C994C0E27AFE935006D4F8E /* Project object */;
+}
